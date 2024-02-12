@@ -3,14 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar makanan di restoran kami!!</title>
-    <link href="css/index.css" rel="stylesheet">
+    <title>Dyna Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <script src="script.js"></script>
+    <header>
+        <h1>Dyna Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Selamat Datang di Dyna Restaurant</h2>
+        <p>Nikmati hidangan lezat kami dengan pilihan menu yang beragam.</p>
+        <a href="#menu" class="btn">Lihat Menu</a>
+    </section>
+
     <section id="menu">
         <h2>Menu Kami</h2>
-    
         <div class="menu-category">
             <h3>Makanan Utama</h3>
             <div class="menu-item">
@@ -23,23 +38,9 @@
                 <p>Ayam panggang dengan rempah-rempah pilihan.</p>
                 <span class="price">$12</span>
             </div>
-            <div class="menu-item">
-                <h4>Bebek Bakar</h4>
-                <p>Bebek bakar dengan saus spesial.</p>
-                <span class="price">$15</span>
-            </div>
-            <div class="menu-item">
-                <h4>Sop Iga Tunjang</h4>
-                <p>Sop iga tunjang dengan kuah kaya rasa.</p>
-                <span class="price">$14</span>
-            </div>
-            <div class="menu-item">
-                <h4>Gurame Panggang</h4>
-                <p>Gurame panggang dengan bumbu rahasia.</p>
-                <span class="price">$18</span>
-            </div>
+            <!-- Tambahkan menu lainnya di sini -->
         </div>
-    
+
         <div class="menu-category">
             <h3>Minuman</h3>
             <div class="menu-item">
@@ -50,20 +51,26 @@
                 <h4>Teh Hangat</h4>
                 <span class="price">$2</span>
             </div>
-            <div class="menu-item">
-                <h4>Kopi Hitam</h4>
-                <span class="price">$3.5</span>
-            </div>
-            <div class="menu-item">
-                <h4>Susu</h4>
-                <span class="price">$3</span>
-            </div>
-            <div class="menu-item">
-                <h4>Minuman Soda</h4>
-                <span class="price">$2.5</span>
-            </div>
+            <!-- Tambahkan minuman lainnya di sini -->
         </div>
     </section>
-    
+
+    <section id="services">
+        <h2>Layanan Kami</h2>
+        <ul>
+            <li>Pesan online</li>
+            <li>Pemesanan untuk acara khusus</li>
+            <li>Menu khusus untuk anak-anak</li>
+        </ul>
+    </section>
+
+    <footer id="contact">
+        <h2>Hubungi Kami</h2>
+        <p>Jl. Contoh No. 123, Kota Contoh</p>
+        <p>Email: info@dynarestaurant.com</p>
+        <p>Telepon: 123-456-7890</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
