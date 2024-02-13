@@ -1,5 +1,7 @@
 h1, p {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 body {
     background: darkgoldenrod;
