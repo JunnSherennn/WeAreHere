@@ -1,8 +1,23 @@
 h1, p {
     text-align: center;
+}
+body {
+    background-image: url(https://www.galerimedika.com/image/cache/catalog/pavblog/img/banner-rempah-indonesia-600x315h.jpg);
+}
+.mtop {
+    width: 80%;
+    background-color: rgba(196, 194, 194, 0.658);
     margin-left: auto;
     margin-right: auto;
 }
-body {
-    background: darkgoldenrod;
+.itop {
+    display: inline-block;
+}
+.ftop { /*daftar makan top*/
+    text-align: left;
+    width: 23%;
+}
+.ptop { /*daftar harga top*/
+    text-align: right;
+    width: 23%;
 }
