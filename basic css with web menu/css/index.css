@@ -1,0 +1,23 @@
+.menu1 {
+  width: 80%;
+  background-color: darksalmon;
+  margin-left: auto;
+  margin-right: auto;
+}
+.h1,
+.h2,
+p {
+  text-align: center;
+}
+.item1,
+p {
+  display: inline-block;
+}
+.food1 {
+  text-align: left;
+  width: 90%;
+}
+.price1 {
+  text-align: center;
+  width: 25%;
+}
